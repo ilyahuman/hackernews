@@ -3,9 +3,9 @@ import './App.css';
 
 import Stories from './Stories';
 
-const App = ({ stories }) => {
+const App = () => {
     return <div className="app">
-        <Stories stories={stories}/>
+        <Stories />
     </div>
-}
+};
 export default App;
